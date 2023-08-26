@@ -225,6 +225,15 @@
 .box-btn:hover {
   color: var(--ffa-7-c-3, #ffa7c3);
 }
-@media  screen and (max-width: 700px){
-  
+.tablet-mode{
+  display: none;
+}
+@media  screen and (max-width: 800px){
+  .image-hero-desktop{
+    display: none;
+    visibility: hidden;
+  }
+  /* .tablet-img{
+    
+   } */
 }
