@@ -231,7 +231,7 @@
 .mobile-img {
   display: none;
 }
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 430px)and (max-width: 800px) {
   .image-hero-desktop {
     display: none;
     visibility: hidden;
@@ -346,15 +346,87 @@
     grid-area: f;
   }
 }
-@media screen and( max-width: 430px) {
-  .tablet-img {
+@media screen and (max-width:430px) {
+  .image-hero-desktop{
     display: none;
   }
-  .image-hero-desktop {
+  .tablet-img{
     display: none;
   }
-  .mobile-img {
+  .mobile-img{
+    display: inline;
     height: 400px;
-    height: 400px;
+    width: 400px;
+    margin-top: 1rem;
+  }
+  .section1{
+    display: block;
+  }
+   .boxes {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(1, 350px);
+    grid-template-rows: repeat(6, 170px);
+    /* height: 500px;
+  width: 500px; */
+    gap: 10px;
+    grid-template-areas:
+      "a" 
+      "b"
+      "c" 
+      "d"
+      "e"
+       "f";
+    overflow-wrap: break-word;
+  }
+  .firstbox{
+    grid-area: a;
+    margin-top: 0;
+    height: 120px;
+  }
+  .firsttext{
+    font-size: 22px;
+    margin-top: 0;
+  }
+  .secondbox{
+    margin-top: 0;
+    grid-area:b ;
+    
+  }
+  .thirdbox{
+    grid-area: c;
+    margin-top: 10.5rem;
+  }
+  .forthbox{
+    grid-area: d;
+    margin-top: 21rem;
+  }
+  .fifthbox{
+    grid-area: e;
+    margin-top: 31.5rem;
+  }
+  .sixthbox{
+    grid-area: f;
+    margin-top: 42rem;
+  }
+  .maxtext{
+    font-size: 40px;
+    margin-left: 0.7rem;
+  }
+  .smalltext{
+    font-size: 16;
+    margin-left: 0.7rem;
+  }
+  .btnclass1{
+    margin-left: 0.7rem;
+  }
+  .Section4{
+margin-top: 55rem;
+  }
+  .title{
+    margin-left: 0.7rem;
+  }
+  .btnclass{
+    margin-right:0.7rem ;
   }
 }
