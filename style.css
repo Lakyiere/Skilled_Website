@@ -231,7 +231,7 @@
 .mobile-img {
   display: none;
 }
-@media screen and (min-width: 430px)and (max-width: 800px) {
+@media screen and (min-width: 430px) and (max-width: 800px) {
   .image-hero-desktop {
     display: none;
     visibility: hidden;
@@ -346,23 +346,23 @@
     grid-area: f;
   }
 }
-@media screen and (max-width:430px) {
-  .image-hero-desktop{
+@media screen and (max-width: 430px) {
+  .image-hero-desktop {
     display: none;
   }
-  .tablet-img{
+  .tablet-img {
     display: none;
   }
-  .mobile-img{
+  .mobile-img {
     display: inline;
     height: 400px;
     width: 400px;
     margin-top: 1rem;
   }
-  .section1{
+  .section1 {
     display: block;
   }
-   .boxes {
+  .boxes {
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: repeat(1, 350px);
@@ -371,62 +371,61 @@
   width: 500px; */
     gap: 10px;
     grid-template-areas:
-      "a" 
+      "a"
       "b"
-      "c" 
+      "c"
       "d"
       "e"
-       "f";
+      "f";
     overflow-wrap: break-word;
   }
-  .firstbox{
+  .firstbox {
     grid-area: a;
     margin-top: 0;
     height: 120px;
   }
-  .firsttext{
+  .firsttext {
     font-size: 22px;
     margin-top: 0;
   }
-  .secondbox{
+  .secondbox {
     margin-top: 0;
-    grid-area:b ;
-    
+    grid-area: b;
   }
-  .thirdbox{
+  .thirdbox {
     grid-area: c;
     margin-top: 10.5rem;
   }
-  .forthbox{
+  .forthbox {
     grid-area: d;
     margin-top: 21rem;
   }
-  .fifthbox{
+  .fifthbox {
     grid-area: e;
     margin-top: 31.5rem;
   }
-  .sixthbox{
+  .sixthbox {
     grid-area: f;
     margin-top: 42rem;
   }
-  .maxtext{
+  .maxtext {
     font-size: 40px;
     margin-left: 0.7rem;
   }
-  .smalltext{
+  .smalltext {
     font-size: 16;
     margin-left: 0.7rem;
   }
-  .btnclass1{
+  .btnclass1 {
     margin-left: 0.7rem;
   }
-  .Section4{
-margin-top: 55rem;
+  .Section4 {
+    margin-top: 55rem;
   }
-  .title{
+  .title {
     margin-left: 0.7rem;
   }
-  .btnclass{
-    margin-right:0.7rem ;
+  .btnclass {
+    margin-right: 0.7rem;
   }
 }
