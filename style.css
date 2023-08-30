@@ -228,18 +228,18 @@
 .tablet-img {
   display: none;
 }
-.mobile-img{
+.mobile-img {
   display: none;
 }
-@media screen and (min-width : 431px) and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .image-hero-desktop {
     display: none;
     visibility: hidden;
   }
-  .mobile-img{
+  .mobile-img {
     display: none;
     visibility: hidden;
-  } 
+  }
   .tablet-img {
     display: inline;
     height: 400px;
@@ -253,7 +253,7 @@
     font-size: 16px;
     margin-left: 1rem;
   }
-  .btnclass1{
+  .btnclass1 {
     margin-left: 1rem;
   }
   .boxes {
@@ -268,7 +268,7 @@
       "a b"
       "c d"
       "e f";
-    overflow-wrap: break-word;  
+    overflow-wrap: break-word;
   }
   .firstbox {
     width: 339px;
@@ -285,7 +285,6 @@
     color: #fff;
     padding-left: 2rem;
     padding-top: 1.5rem;
-
   }
   .secondbox {
     width: 339px;
@@ -348,15 +347,13 @@
   }
 }
 @media screen and( max-width: 430px) {
-  .tablet-img{
+  .tablet-img {
     display: none;
   }
-  .image-hero-desktop{
+  .image-hero-desktop {
     display: none;
-
   }
-  .mobile-img{
-    display: none;
+  .mobile-img {
     height: 400px;
     height: 400px;
   }
