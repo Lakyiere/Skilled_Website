@@ -87,8 +87,12 @@
   grid-template-areas:
     "a b c "
     "d e f";
-    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+    
 }
+.design-place{
+background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+margin-top: 5rem;}
+
 .firstbox {
   width: 350px;
   height: 322px;
