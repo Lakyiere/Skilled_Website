@@ -1,3 +1,6 @@
+*{
+  font-family: Plus Jakarta Sans;
+}
 .headerclass {
   display: flex;
   justify-content: space-between;
@@ -49,7 +52,8 @@
 }
 .image-hero-desktop {
   height: 500px;
-  width: 700px;
+  width: 600px;
+  overflow: hidden;
 }
 .btnclass1 {
   font-size: 13px;
@@ -83,6 +87,7 @@
   grid-template-areas:
     "a b c "
     "d e f";
+    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
 }
 .firstbox {
   width: 350px;
@@ -130,6 +135,7 @@
   font-weight: 500;
   line-height: 28px;
   color: #83869a;
+  max-width: 17rem;
 }
 .box-btn {
   margin-left: 2rem;
@@ -226,12 +232,21 @@
 .box-btn:hover {
   color: var(--ffa-7-c-3, #ffa7c3);
 }
+.logo-footer{
+  padding-left: 7rem;
+  margin-top: 0.7rem;
+}
+.logo-header{
+  padding-left: 7rem;
+  margin-top: 2rem;
+}
 .tablet-img {
   display: none;
 }
 .mobile-img {
   display: none;
 }
+
 @media screen and (min-width: 430px) and (max-width: 800px) {
   .image-hero-desktop {
     display: none;
@@ -245,6 +260,8 @@
     display: inline;
     height: 400px;
     width: 400px;
+    overflow: clip;
+    
   }
   .maxtext {
     font-size: 40px;
@@ -255,7 +272,10 @@
     margin-left: 1rem;
   }
   .btnclass1 {
-    margin-left: 1rem;
+    margin-left: 0rem;
+  }
+  .btn-footer{
+    margin-right: 1.5rem;
   }
   .boxes {
     display: grid;
@@ -310,6 +330,7 @@
     font-weight: 500;
     line-height: 28px;
     color: #83869a;
+    max-width: 17rem;
   }
   .box-btn {
     margin-left: 2rem;
@@ -346,6 +367,14 @@
     height: 259px;
     grid-area: f;
   }
+  .logo-footer{
+  padding-left: 0.8rem;
+  margin-top: 0.7rem;
+}
+.logo-header{
+  padding-left: 1rem;
+  margin-top: 2rem;
+}
 }
 @media screen and (max-width: 430px) {
   .image-hero-desktop {
@@ -356,8 +385,6 @@
   }
   .mobile-img {
     display: inline;
-    height: 400px;
-    width: 400px;
     margin-top: 1rem;
   }
   .section1 {
@@ -395,19 +422,19 @@
   }
   .thirdbox {
     grid-area: c;
-    margin-top: 10.5rem;
+    margin-top: 12.5rem;
   }
   .forthbox {
     grid-area: d;
-    margin-top: 21rem;
+    margin-top: 25rem;
   }
   .fifthbox {
     grid-area: e;
-    margin-top: 31.5rem;
+    margin-top: 38.5rem;
   }
   .sixthbox {
     grid-area: f;
-    margin-top: 42rem;
+    margin-top: 51rem;
   }
   .maxtext {
     font-size: 40px;
@@ -421,7 +448,7 @@
     margin-left: 0.7rem;
   }
   .Section4 {
-    margin-top: 55rem;
+    margin-top: 64rem;
   }
   .title {
     margin-left: 0.7rem;
@@ -429,4 +456,12 @@
   .btnclass {
     margin-right: 0.7rem;
   }
+  .logo-footer{
+  padding-left: 0.8rem;
+  margin-top: 0.7rem;
+}
+.logo-header{
+  padding-left: 1rem;
+  margin-top: 2rem;
+}
 }
