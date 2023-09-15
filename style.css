@@ -50,10 +50,20 @@
   line-height: 28px;
   color: #83869a;
 }
+.image{
+  position: absolute;
+  overflow: hidden;
+}
+/* .image.img{
+  position: relative;
+  overflow: hidden;
+} */
 .image-hero-desktop {
+  position: relative;
   height: 500px;
   width: 600px;
-  overflow: hidden;
+  transform: translate(60ex, -15ex);
+  /* overflow: hidden; */
 }
 .btnclass1 {
   font-size: 13px;
