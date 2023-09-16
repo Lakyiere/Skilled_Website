@@ -273,10 +273,11 @@ background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
   }
   .container{
     overflow: hidden;
+    position: relative;
   }
-  .section1{
+  /* .section1{
     overflow: hidden;
-  }
+  } */
   .tablet-img {
     overflow: hidden;
     position: relative;
