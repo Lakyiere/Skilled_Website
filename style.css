@@ -152,6 +152,7 @@ background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
   max-width: 17rem;
 }
 .box-btn {
+  font-weight: 200px;
   margin-left: 2rem;
   font-size: 16px;
   font-style: normal;
@@ -169,6 +170,7 @@ background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
 }
 .design-btn {
   margin-top: 3rem;
+  font-weight: bold;
 }
 .forthbox {
   margin-top: 10rem;
@@ -197,6 +199,9 @@ background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
   box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
   grid-area: f;
 }
+/* .Section3{
+  background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+} */
 .skilled-logo {
   display: flex;
   justify-content: space-between;
@@ -275,27 +280,31 @@ background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
     overflow: hidden;
     position: relative;
   }
-  /* .section1{
-    overflow: hidden;
-  } */
+  .section1{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  /*  */
   .tablet-img {
     overflow: hidden;
     position: relative;
-    width: 400px;
-    height: 400px;
-    display: inline;
-    transform: translate(10ex,0px);
+    width: 550px;
+    height: 500px;
+    display: flex;
+    transform: translate(17ex,0px);
   }
   .maxtext {
+    font-weight: 800;
     font-size: 40px;
     margin-left: 1rem;
   }
   .smalltext {
-    font-size: 16px;
+    width: 200;
+    font-size: 15px;
     margin-left: 1rem;
   }
   .btnclass1 {
-    margin-left: 0rem;
+    margin-left: 1rem;
   }
   .btn-footer{
     margin-right: 1.5rem;
@@ -316,7 +325,7 @@ background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
   }
   .firstbox {
     width: 339px;
-    height: 259px;
+    height: 299px;
     overflow-wrap: break-word;
 
     grid-area: a;
@@ -332,7 +341,7 @@ background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
   }
   .secondbox {
     width: 339px;
-    height: 259px;
+    height: 299px;
     grid-area: b;
   }
   .box-img {
@@ -364,9 +373,9 @@ background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
     color: #f74780;
   }
   .thirdbox {
-    margin-top: 5rem;
+    margin-top: 8rem;
     width: 339px;
-    height: 259px;
+    height: 299px;
     grid-area: c;
   }
   /* .third-btn {
@@ -375,19 +384,21 @@ background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
     margin-top: 3rem;
   } */
   .forthbox {
-    margin-top: 5rem;
+    margin-top: 8rem;
     width: 339px;
-    height: 259px;
+    height: 299px;
     grid-area: d;
   }
   .fifthbox {
+    margin-top: 15rem;
     width: 339px;
-    height: 259px;
+    height: 299px;
     grid-area: e;
   }
   .sixthbox {
+    margin-top: 15rem;
     width: 339px;
-    height: 259px;
+    height: 299px;
     grid-area: f;
   }
   .logo-footer{
