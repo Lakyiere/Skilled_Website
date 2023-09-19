@@ -367,24 +367,7 @@ background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
     font-weight: 500;
     line-height: 28px;
     color: #83869a;
-    max-width: 17rem;
-  }
-  .box-btn {
-    margin-left: 2rem;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 28px;
-    color: #f74780;
-  }
-  .thirdbox {
-    margin-top: 8rem;
-    width: 339px;
-    height: 299px;
-    grid-area: c;
-  }
-  /* .third-btn {
-    width: 339px;
+    max-width: 17 339px;
     height: 259px;
     margin-top: 3rem;
   } */
