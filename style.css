@@ -152,11 +152,11 @@ background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
   max-width: 17rem;
 }
 .box-btn {
-  font-weight: 200px;
+  
   margin-left: 2rem;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 800;
   line-height: 28px;
   color: #f74780;
 }
@@ -288,12 +288,14 @@ background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
   .tablet-img {
     overflow: hidden;
     position: relative;
-    width: 550px;
-    height: 500px;
+    width: 500px;
+    /* height: 500px; */
     display: flex;
-    transform: translate(17ex,0px);
+    transform: translate(12ex,3ex);
   }
   .maxtext {
+
+    width: 400px;
     font-weight: 800;
     font-size: 40px;
     margin-left: 1rem;
@@ -305,6 +307,9 @@ background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
   }
   .btnclass1 {
     margin-left: 1rem;
+  }
+  .btnclass{
+    margin-right: 1.5rem;
   }
   .btn-footer{
     margin-right: 1.5rem;
@@ -368,7 +373,7 @@ background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
     margin-left: 2rem;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     line-height: 28px;
     color: #f74780;
   }
@@ -418,11 +423,22 @@ background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
     display: none;
   }
   .mobile-img {
+    width: 375px;
     display: inline;
     margin-top: 1rem;
   }
   .section1 {
     display: block;
+  }
+  .maxtext{
+    width: 340px;
+    font-size: 40px;
+font-style: normal;
+font-weight: 800;
+  }
+  .smalltext{
+    width: 350px;
+    font-size: 14px;
   }
   .boxes {
     display: grid;
@@ -445,28 +461,34 @@ background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
     grid-area: a;
     margin-top: 0;
     height: 120px;
+    width: 340px;
   }
   .firsttext {
     font-size: 22px;
     margin-top: 0;
   }
   .secondbox {
+    width: 340px;
     margin-top: 0;
     grid-area: b;
   }
   .thirdbox {
+    width: 340px;
     grid-area: c;
     margin-top: 12.5rem;
   }
   .forthbox {
+    width: 340px;
     grid-area: d;
     margin-top: 25rem;
   }
   .fifthbox {
+    width: 340px;
     grid-area: e;
     margin-top: 38.5rem;
   }
   .sixthbox {
+    width: 340px;
     grid-area: f;
     margin-top: 51rem;
   }
