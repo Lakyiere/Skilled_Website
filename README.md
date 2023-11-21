@@ -4,6 +4,10 @@ This is a repo of a responsive skilled website I have built with the Amalitech T
 
 # The UI
 
+![Screenshot 2023-11-21 230334](https://github.com/Lakyiere/Skilled_Website/assets/70054440/6101bab7-2032-4119-9b45-3631669dd998)
+
+![Screenshot 2023-11-21 230404](https://github.com/Lakyiere/Skilled_Website/assets/70054440/dee9a6ac-3f84-4345-8a6b-4f9b21c3e30e)
+
 ![Screenshot 2023-11-21 230424](https://github.com/Lakyiere/Skilled_Website/assets/70054440/69a3dec7-40d2-48d5-ad94-e0b399dc2893)
 
 ![Screenshot 2023-11-21 230500](https://github.com/Lakyiere/Skilled_Website/assets/70054440/857084c7-e2f4-4b93-b43c-7cc751b0aba1)
@@ -20,8 +24,6 @@ This is a repo of a responsive skilled website I have built with the Amalitech T
 
 ![Screenshot 2023-11-21 230711](https://github.com/Lakyiere/Skilled_Website/assets/70054440/5db85fa3-cae3-410f-8972-972456722d15)
 
-![Screenshot 2023-11-21 230334](https://github.com/Lakyiere/Skilled_Website/assets/70054440/6101bab7-2032-4119-9b45-3631669dd998)
 
-![Screenshot 2023-11-21 230404](https://github.com/Lakyiere/Skilled_Website/assets/70054440/dee9a6ac-3f84-4345-8a6b-4f9b21c3e30e)
 
 
